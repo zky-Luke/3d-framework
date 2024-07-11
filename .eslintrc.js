@@ -15,9 +15,6 @@ module.exports = {
       jsx: true
     }
   },
-  globals: {
-    "BABYLON": true
-  },
   extends: [
     'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended',

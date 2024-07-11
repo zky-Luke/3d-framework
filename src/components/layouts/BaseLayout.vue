@@ -7,7 +7,7 @@
         style="height: var(--ep-menu-item-height)"
         @click="toggleDark()"
       >
-        <i inline-flex i="dark:ep-moon ep-sunny" class="text-white" />
+        <i inline-flex i="dark:ep-moon ep-sunny" class="text-white"></i>
       </button>
       <router-view />
     </div>
@@ -15,7 +15,7 @@
 </template>
 
 <script lang="ts" setup>
-import { toggleDark } from "~/composables";
+import { toggleDark } from '~/composables'
 </script>
 <style>
 .main-container {

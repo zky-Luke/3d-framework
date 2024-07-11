@@ -59,29 +59,27 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
-import {
-  PriceTag
-} from "@element-plus/icons-vue";
+import { ref } from 'vue'
+import { PriceTag } from '@element-plus/icons-vue'
 
-const input = ref("");
+const input = ref('')
 
-const isCollapse = ref(false);
+const isCollapse = ref(false)
 const handleOpen = (key: string, keyPath: string[]) => {
-  console.log(key, keyPath);
-};
+  console.log(key, keyPath)
+}
 const handleClose = (key: string, keyPath: string[]) => {
-  console.log(key, keyPath);
-};
+  console.log(key, keyPath)
+}
 </script>
 
 <style lang="scss" scoped>
-.border-none{
-  :deep(.ep-input__wrapper){
+.border-none {
+  :deep(.ep-input__wrapper) {
     box-shadow: none;
   }
 }
-.el-menu-vertical-demo{
+.el-menu-vertical-demo {
   border: none;
   text-align: left;
   a {
